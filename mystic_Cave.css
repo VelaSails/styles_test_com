@@ -1,5 +1,5 @@
 /*
-Reskinned into a Dark Purple / Mystic Forest Grunge theme.
+Reskinned into a Dark Purple / Mystic Forest Grunge theme by Lamp.
 */
 
 /* font import */
@@ -89,15 +89,6 @@ a:focus {
     font-family: 'Comic Neue', 'Comic Sans MS', cursive;
 }
 
-/* logo - kept as Lioden's default artwork, tinted purple */
-.navbar-brand img {
-    height: 70px !important;
-    width: auto !important;
-    border-radius: 3px;
-    border: 1px solid #7b566a;
-    filter: saturate(1.1) brightness(75%) hue-rotate(230deg);
-}
-
 /* navbar defaults */
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -110,6 +101,11 @@ a:focus {
 .navbar-default .navbar-nav>li>a {
     color: #927b86;
     font-weight: bold;
+}
+
+/* Liode Logo */
+a.navbar-brand.visible-lg.visible-md img {
+  filter: saturate(0.8) brightness(65%) hue-rotate(282deg);
 }
 
 /* mobile toggle box */
@@ -358,11 +354,20 @@ a:focus {
     font-weight: bold;
 }
 
-/* lion image */
-#lion_image>div {
-    border-radius: 10px;
-    border: 1px solid #5c415f;
+/*lion */
+.featured-lion {
+  background: var(--color-1);
+  border: 5px solid var(--color-0);
+  border-radius: 20px;
 }
+.featured-lion a {
+  color: var(--color-5) !important;
+}
+/*Lion background image*/
+.lion-image-block img:nth-child(1) {
+  content: url(https://static.lioden.com/images/dynamic/backgrounds/thenav.png);
+}
+
 
 /* table body */
 .table {
