@@ -165,6 +165,11 @@ a.navbar-brand.visible-lg.visible-md img {
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
 
+.breadcrumb-item.active,
+.breadcrumb-item::before {
+    color: #b89bb0 !important;
+}
+
 .breadcrumb::after {
     content: "CSS made by Me★";
     position: absolute;
@@ -172,11 +177,6 @@ a.navbar-brand.visible-lg.visible-md img {
     z-index: 100;
     color: #c9b8c4;
     font-family: 'Kameron', 'Times New Roman', Times, serif;
-}
-
-.breadcrumb-item.active,
-.breadcrumb-item::before {
-    color: #b89bb0 !important;
 }
 
 /* Side Bar */
@@ -356,12 +356,12 @@ a.navbar-brand.visible-lg.visible-md img {
 
 /*lion */
 .featured-lion {
-  background: var(--color-1);
-  border: 5px solid var(--color-0);
+  background: #2c1f30;
+  border: 5px solid #1f1730;
   border-radius: 20px;
 }
 .featured-lion a {
-  color: var(--color-5) !important;
+  color: #d98bab !important;
 }
 /*Lion background image*/
 .lion-image-block img:nth-child(1) {
@@ -1094,17 +1094,6 @@ a[href$='./chat.php'] {
     div.lionImage.featured-lion>div {
         height: 450px !important;
     }
-}
-
-/*?credits*/
-
-.breadcrumb::after {
-  content: "CSS by Me★";
-  position: absolute;
-  right: 20%;
-  z-index: 100;
-  color: var(--color-5);
-
 }
 
 /*#endregion */
