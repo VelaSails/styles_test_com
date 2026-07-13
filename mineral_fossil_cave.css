@@ -12,8 +12,8 @@ body {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 19px;
     line-height: 1.55;
-    background-color: #0d0a10;
-    background-image: linear-gradient(to bottom, rgba(20,10,5,0.3) 0%, rgba(20,10,5,0.65) 60%, #140a05 100%), url('https://i.pinimg.com/736x/ef/e9/e5/efe9e52cff41e4233ab7bab5a59c240b.jpg');
+    background-color: #04100e;
+    background-image: linear-gradient(to bottom, rgba(4,16,14,0.25) 0%, rgba(4,16,14,0.65) 60%, #04100e 100%), url('https://i.pinimg.com/736x/ef/e9/e5/efe9e52cff41e4233ab7bab5a59c240b.jpg');
     background-position-y: center;
     background-position-x: center;
     /* DON'T CHANGE BELOW */
@@ -28,7 +28,7 @@ h1,
 h2,
 h3,
 .sidebar h3 {
-    color: #b89adf;
+    color: #ffffff;
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-weight: 700;
 }
@@ -49,27 +49,27 @@ b,
 }
 
 small {
-    color: #d7c88a !important;
+    color: #ffffff !important;
 }
 
 /* Links */
 a:link,
 a:visited,
 a:active {
-    color: #b89adf;
+    color: #ffffff;
 }
 
 a:hover,
 a:focus {
     color: #ffffff;
-    text-shadow: 0px 0px 5px rgba(201,169,90,0.6);
+    text-shadow: 0px 0px 5px rgba(78,205,196,0.6);
 }
 
 /* Topbar */
 .topbar a:link,
 .topbar a:visited,
 .topbar a:active {
-    color: #d7c88a;
+    color: #ffffff;
 }
 
 .topbar a:hover,
@@ -78,8 +78,8 @@ a:focus {
 }
 
 .topbar {
-    background: rgba(26, 18, 24, 0.85);
-    border: 1px solid #4a3a52;
+    background: rgba(10, 22, 20, 0.85);
+    border: 1px solid #1f3d3a;
     border-top: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -90,8 +90,8 @@ a:focus {
 
 /* Navbar */
 .navbar {
-    background: rgba(43, 31, 46, 0.85);
-    border-bottom: 1px solid #4a3a52;
+    background: rgba(15, 40, 38, 0.85);
+    border-bottom: 1px solid #1f3d3a;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     font-family: 'Cormorant Garamond', Georgia, serif;
@@ -103,17 +103,17 @@ a:focus {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    color: #b89adf;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #b89adf;
+    color: #ffffff;
     font-weight: bold;
 }
 
 /* Liode Logo */
 a.navbar-brand.visible-lg.visible-md img {
-  filter: saturate(0.8) brightness(65%) hue-rotate(282deg);
+  filter: saturate(0.9) brightness(75%) hue-rotate(140deg);
 }
 
 /* mobile toggle box */
@@ -124,7 +124,7 @@ a.navbar-brand.visible-lg.visible-md img {
 /* make different from navbar */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background: #4a3a52;
+    background: #1f3d3a;
 }
 
 /* bars in navbar icon */
@@ -135,7 +135,7 @@ a.navbar-brand.visible-lg.visible-md img {
 /* collapsed navbar */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    border-color: #4a3a52;
+    border-color: #1f3d3a;
     box-shadow: none;
 }
 
@@ -148,7 +148,7 @@ a.navbar-brand.visible-lg.visible-md img {
 .navbar .active a:visited,
 .navbar .active a:active,
 .navbar .active a:focus {
-    background: #6a5a4a;
+    background: #2e7d76;
     color: #ffffff;
 }
 
@@ -156,7 +156,7 @@ a.navbar-brand.visible-lg.visible-md img {
 .main {
     background: rgba(10, 10, 10, 0.75);
     border-radius: 10px;
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
 }
 
@@ -167,8 +167,8 @@ a.navbar-brand.visible-lg.visible-md img {
 
 /* Breadcrumb */
 .breadcrumb {
-    background: rgba(66, 54, 88, 0.8);
-    border: 1px solid #4a3a52;
+    background: rgba(25, 65, 63, 0.8);
+    border: 1px solid #1f3d3a;
     border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
@@ -178,13 +178,13 @@ a.navbar-brand.visible-lg.visible-md img {
     position: absolute;
     right: 20%;
     z-index: 100;
-    color: #d7c88a;
+    color: #ffffff;
     font-family: 'Cinzel', 'Times New Roman', Times, serif;
 }
 
 .breadcrumb-item.active,
 .breadcrumb-item::before {
-    color: #b89bb0 !important;
+    color: #ffffff !important;
 }
 
 /* Side Bar */
@@ -195,29 +195,29 @@ a.navbar-brand.visible-lg.visible-md img {
 
 /* sidebar inner boxes */
 .col-md-3 .panel {
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
     border-radius: 10px;
-    background: rgba(26, 18, 24, 0.7);
+    background: rgba(10, 22, 20, 0.7);
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
     color: #ffffff;
 }
 
 /* dotted line above chat on smaller screen sizes */
 .clear {
-    border-color: #4a3a52 !important;
+    border-color: #1f3d3a !important;
 }
 
 /* Progress Bars */
 /* background container */
 .progress {
-    background: #1a1218;
+    background: #0a1512;
     border-radius: 20px;
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
 }
 
 /* default and impression */
 .progress-bar {
-    background: linear-gradient(#6a5a4a, #4a3a52);
+    background: linear-gradient(#2e7d76, #1f3d3a);
 }
 
 /* if you want all to match comment out the next three classes */
@@ -245,7 +245,7 @@ a.navbar-brand.visible-lg.visible-md img {
 .alert-danger,
 .alert-success,
 .alert-warning {
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
     border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
@@ -254,7 +254,7 @@ a.navbar-brand.visible-lg.visible-md img {
 .alert-danger {
     color: #ffffff;
     background: #3d2c3d;
-    border: 1px solid #6a5a4a;
+    border: 1px solid #2e7d76;
 }
 
 .alert-danger>a,
@@ -315,10 +315,10 @@ a.navbar-brand.visible-lg.visible-md img {
 
 /* comment box */
 #commentBox {
-    border: 1px solid #4a3a52 !important;
+    border: 1px solid #1f3d3a !important;
     border-radius: 5px !important;
     height: 200px !important;
-    background: rgba(26, 18, 24, 0.7);
+    background: rgba(10, 22, 20, 0.7);
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
 
@@ -332,25 +332,25 @@ a.navbar-brand.visible-lg.visible-md img {
     width: 8px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: #1a1218;
+    background: #0a1512;
 }
 
 /* scrollbar button */
 #commentBox::-webkit-scrollbar-thumb {
-    background: #6a5a4a;
+    background: #2e7d76;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
 #commentBox::-webkit-scrollbar-thumb:hover {
-    background: #4a3a52;
+    background: #1f3d3a;
 }
 
 /* tables */
 /* table headers */
 .table .top,
 .table th {
-    background: rgba(43, 31, 46, 0.85);
+    background: rgba(15, 40, 38, 0.85);
     color: #ffffff;
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-weight: bold;
@@ -364,14 +364,14 @@ a.navbar-brand.visible-lg.visible-md img {
 
 /*Lion background image*/
 .lion-image-block img:nth-child(1) {
-  content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Malachite-172026.jpg/1280px-Malachite-172026.jpg');
+  content: url('https://i.pinimg.com/736x/90/ed/2b/90ed2b331a35905a3d1cf979c6cc61c9.jpg');
 }
 
 
 /* table body */
 .table {
-    background: rgba(26, 18, 24, 0.7);
-    border: 1px solid #4a3a52;
+    background: rgba(10, 22, 20, 0.7);
+    border: 1px solid #1f3d3a;
     color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
@@ -383,7 +383,7 @@ a.navbar-brand.visible-lg.visible-md img {
 .table th a:link,
 .table th a:active,
 .table th a:visited {
-    color: #d7c88a;
+    color: #ffffff;
     font-weight: bold;
     border-bottom: none;
 }
@@ -398,33 +398,33 @@ a.navbar-brand.visible-lg.visible-md img {
 
 /* left side of stats on king and status bars in caves */
 .table .left {
-    background: rgba(107, 74, 138, 0.65);
+    background: rgba(46, 139, 134, 0.55);
 }
 
 /* left side of stats on king */
 .inner-table .left {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    background: rgba(107, 74, 138, 0.65);
+    background: rgba(46, 139, 134, 0.55);
 }
 
 /* right side of king stats */
 .inner-table .right {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: rgba(139, 95, 148, 0.65);
+    background: rgba(60, 160, 150, 0.5);
 }
 
 /* every other lion in caves */
 .table .right_odd {
-    background: rgba(139, 95, 148, 0.4);
+    background: rgba(60, 160, 150, 0.3);
 }
 
 /* table footers */
 .table .innerHeader,
 .table .bottom,
 #player>tbody>tr {
-    background: rgba(43, 31, 46, 0.85);
+    background: rgba(15, 40, 38, 0.85);
     color: #ffffff;
 }
 
@@ -441,7 +441,7 @@ a.navbar-brand.visible-lg.visible-md img {
 .table .bottom a:link,
 .table .bottom a:visited,
 .table .bottom a:active {
-    color: #d7c88a;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -460,14 +460,14 @@ a.navbar-brand.visible-lg.visible-md img {
 
 /* little :|: spans in player table */
 #player .text-muted {
-    color: #d7c88a80;
+    color: rgba(255,255,255,0.5);
 }
 
 /* days left until heat badge */
 .badge {
-    background: #6b4a8a;
+    background: #2e7d76;
     color: #ffffff;
-    border: 1px solid #9b6fa3;
+    border: 1px solid #3fb8ae;
 }
 
 /* inputs for typing in text in territory description etc. */
@@ -476,24 +476,24 @@ input,
 select,
 #fra_chatContainer #txtChatInput {
     color: #ffffff;
-    background: #1a1218;
-    border: 1px solid #6a5a4a;
+    background: #0a1512;
+    border: 1px solid #2e7d76;
 }
 
 input:focus,
 textarea:focus {
-    border-color: #b89adf;
+    border-color: #ffffff;
     outline: none;
 }
 
 input::placeholder {
-    color: #d7c88a80;
+    color: rgba(255,255,255,0.5);
 }
 
 /* CLAN STUFF */
 .page-description {
-    border: 1px solid #4a3a52;
-    background: #1a1218;
+    border: 1px solid #1f3d3a;
+    background: #0a1512;
     padding: 20px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
@@ -507,8 +507,8 @@ input::placeholder {
 /* main overrides */
 .mound-grid,
 .cave-grid {
-    background: rgba(90, 55, 105, 0.55);
-    border: 1px solid #9b6fa3;
+    background: rgba(20, 60, 58, 0.5);
+    border: 1px solid #3fb8ae;
     border-radius: 10px;
     color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
@@ -532,7 +532,7 @@ input::placeholder {
     object-fit: cover;
     object-position: top;
     border-radius: 5px;
-    border: 1px solid #6a5a4a;
+    border: 1px solid #2e7d76;
     margin-bottom: 5px;
 }
 
@@ -570,7 +570,7 @@ img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
-    border: 1px solid #6a5a4a;
+    border: 1px solid #2e7d76;
 }
 
 /* create mound image and empty cave slots */
@@ -581,7 +581,7 @@ img[src$='//static.lioden.com/images/layout/addbeetlemound.png'] {
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
-    border: 1px solid #6a5a4a;
+    border: 1px solid #2e7d76;
 }
 img[src$='//static.lioden.com/images/layout/caveunused.jpg'] {
     filter: saturate(40%) brightness(70%);
@@ -589,11 +589,11 @@ img[src$='//static.lioden.com/images/layout/caveunused.jpg'] {
 
 /* featured lion section */
 .featured-lion {
-    background: #1a1218;
+    background: #0a1512;
     color: #ffffff;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 0 1px #4a3a52, 1px 1px 3px rgba(0,0,0,0.8);
+    box-shadow: 0 0 0 1px #1f3d3a, 1px 1px 3px rgba(0,0,0,0.8);
 }
 
 .featured-lion img {
@@ -614,7 +614,7 @@ img[src$='//static.lioden.com/images/layout/caveunused.jpg'] {
 .featured-lion a:link,
 .featured-lion a:active,
 .featured-lion a:visited {
-    color: #d7c88a;
+    color: #ffffff;
 }
 
 /* owned by text */
@@ -628,7 +628,7 @@ h1.center>small a,
 h1.center>small a:link,
 h1.center>small a:visited,
 h1.center>small a:active {
-    color: #d7c88a !important;
+    color: #ffffff !important;
 }
 
 /* dropdown text */
@@ -639,8 +639,8 @@ h1.center>small a:active {
 /* Inner Mounds */
 /* menu bg */
 .sub_menu {
-    background: rgba(107, 74, 138, 0.85);
-    border: 1px solid #9b6fa3;
+    background: rgba(46, 139, 134, 0.75);
+    border: 1px solid #3fb8ae;
     border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
@@ -652,8 +652,8 @@ h1.center>small a:active {
 /* Feature Styling (like feed all play all etc.) */
 div.feature {
     border-radius: 10px;
-    border: 1px solid #4a3a52;
-    background: rgba(26, 18, 24, 0.7);
+    border: 1px solid #1f3d3a;
+    background: rgba(10, 22, 20, 0.7);
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -667,11 +667,11 @@ div.feature select {
 
 /* header */
 div.feature h3 {
-    color: #b89adf;
+    color: #ffffff;
 }
 
 .feature-footer {
-    background: rgba(26, 18, 24, 0.7);
+    background: rgba(10, 22, 20, 0.7);
 }
 
 /* inner text */
@@ -682,9 +682,9 @@ div.feature h3 {
 /* Dynasty Pills */
 /* dynasty main */
 div.left {
-    background: rgba(26, 18, 24, 0.7);
+    background: rgba(10, 22, 20, 0.7);
     border-radius: 10px;
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
     color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
@@ -698,7 +698,7 @@ div.left img {
     max-width: 500px !important;
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
-    filter: saturate(70%) brightness(65%) hue-rotate(240deg);
+    filter: saturate(70%) brightness(65%) hue-rotate(100deg);
 }
 
 .dynastylist .left {
@@ -707,7 +707,7 @@ div.left img {
 
 /* dynasty headers */
 .dynastylist h3 {
-    color: #b89adf;
+    color: #ffffff;
     padding-top: 5px;
 }
 
@@ -718,7 +718,7 @@ div.left img {
 
 /* links in the pills beneath dynasty stuff */
 a div.left {
-    color: #d7c88a;
+    color: #ffffff;
 }
 
 a div.left:hover,
@@ -728,20 +728,20 @@ a div.left:focus {
 
 /* Branch */
 .item {
-    background: #2e2038;
-    border: 1px solid #9b6fa3;
+    background: #0f221f;
+    border: 1px solid #3fb8ae;
     border-radius: 5px;
 }
 
 .item-header {
-    background: #6b4a8a;
+    background: #2e7d76;
     color: #ffffff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 .item-footer {
-    background: #6b4a8a;
+    background: #2e7d76;
     color: #ffffff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -778,11 +778,11 @@ button.button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-    background: #4a3a52;
-    background: linear-gradient(to bottom, #4a3a52 5%, #423658 5%, #423658 95%, #2c1f30 95%);
+    background: #1f3d3a;
+    background: linear-gradient(to bottom, #1f3d3a 5%, #1f4d48 5%, #1f4d48 95%, #0a1512 95%);
     color: #ffffff;
-    border: 1px solid #1f1730;
-    text-shadow: 1px 1px 0px #1f1730;
+    border: 1px solid #081210;
+    text-shadow: 1px 1px 0px #081210;
     font-family: 'Cinzel', 'Times New Roman', Times, serif;
 }
 
@@ -792,11 +792,11 @@ button.button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background: #4e374f;
-    background: linear-gradient(to bottom, #4e374f 5%, #362c47 5%, #362c47 95%, #221a26 95%);
+    background: #245049;
+    background: linear-gradient(to bottom, #245049 5%, #173330 5%, #173330 95%, #0d1a18 95%);
     color: #ffffff;
-    border: 1px solid #1a1420;
-    text-shadow: 1px 1px 0px #1a1420;
+    border: 1px solid #081210;
+    text-shadow: 1px 1px 0px #081210;
 }
 
 /* red/"bad" button - kept in the purple family but shifted toward magenta so it still reads as the danger action */
@@ -805,11 +805,11 @@ button.button.bad,
 input[type="button"].bad,
 input[type="submit"].bad,
 input[type="reset"].bad {
-    background: #8a2f5c;
-    background: linear-gradient(to bottom, #8a2f5c 5%, #6b2447 5%, #6b2447 49%, #6b2447 95%, #4a1830 95%);
+    background: #8a3f2f;
+    background: linear-gradient(to bottom, #8a3f2f 5%, #6b2f1f 5%, #6b2f1f 49%, #6b2f1f 95%, #4a1f10 95%);
     color: #ffffff;
-    border: 1px solid #4a1830;
-    text-shadow: 1px 1px 0px #4a1830;
+    border: 1px solid #4a1f10;
+    text-shadow: 1px 1px 0px #4a1f10;
 }
 
 /* red/"bad" button hover */
@@ -818,24 +818,24 @@ button.button.bad:hover,
 input[type="button"].bad:hover,
 input[type="submit"].bad:hover,
 input[type="reset"].bad:hover {
-    background: #772850;
-    background: linear-gradient(to bottom, #772850 5%, #5a1e3c 5%, #5a1e3c 49%, #5a1e3c 95%, #3c1327 95%);
+    background: #6b3020;
+    background: linear-gradient(to bottom, #6b3020 5%, #4a2418 5%, #4a2418 49%, #4a2418 95%, #3a190e 95%);
     color: #ffffff;
-    border: 1px solid #3c1327;
-    text-shadow: 1px 1px 0px #3c1327;
+    border: 1px solid #3a190e;
+    text-shadow: 1px 1px 0px #3a190e;
 }
 
 /* Event Flavor Text */
 /* has to go at the bottom since it likes to be mean to me otherwise trust me best left here lol */
 center>div.center.b,
 center>b>span {
-    color: #b89bb0 !important;
+    color: #ffffff !important;
 }
 
 /* Footer */
 .footer {
     background: rgba(10, 10, 10, 0.75);
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
     border-radius: 10px;
     padding: 1em;
     margin-top: 2em;
@@ -860,7 +860,7 @@ ul.bottomlinks {
 .footer a:link,
 .footer a:active,
 .footer a:visited {
-    color: #b89adf;
+    color: #ffffff;
     border-bottom: none;
 }
 
@@ -874,7 +874,7 @@ footer a:focus {
 /*#region Chat */
 /* main container */
 #chatMessageContainer {
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
 }
 
 /* chat buttons - inverted so dark icons read on the dark theme */
@@ -887,8 +887,8 @@ footer a:focus {
 /* menu dropbox */
 .channelMenu>button,
 .channelMenu>div {
-    background: rgba(43, 31, 46, 0.85) !important;
-    border-color: #6a5a4a !important;
+    background: rgba(15, 40, 38, 0.85) !important;
+    border-color: #2e7d76 !important;
     color: #ffffff !important;
     box-shadow: none !important;
 }
@@ -911,8 +911,8 @@ footer a:focus {
 /* mention */
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention,
 .s-chat-message.hasContext {
-    background: rgba(66, 54, 88, 0.6) !important;
-    border-color: #6a5a4a !important;
+    background: rgba(25, 65, 63, 0.6) !important;
+    border-color: #2e7d76 !important;
     color: #ffffff !important;
     padding-left: 10px;
 }
@@ -923,7 +923,7 @@ footer a:focus {
 }
 
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention a {
-    color: #d7c88a !important;
+    color: #ffffff !important;
 }
 
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention a:hover,
@@ -934,22 +934,22 @@ footer a:focus {
 /* scrollbar */
 #chatMessageList::-webkit-scrollbar {
     width: 8px;
-    background: #1a1218;
+    background: #0a1512;
 }
 
 /* scrollbar button */
 #chatMessageList::-webkit-scrollbar-thumb {
-    background: #6a5a4a;
+    background: #2e7d76;
     border-radius: 0;
 }
 
 #chatMessageList::-webkit-scrollbar-thumb:hover {
-    background: #4a3a52;
+    background: #1f3d3a;
 }
 
 /* claim badge */
 .s-chat-message_claim {
-    background: #6a5a4a;
+    background: #2e7d76;
     border-bottom: none;
     color: #ffffff;
 }
@@ -961,16 +961,16 @@ footer a:focus {
 
 /* main inner bit */
 #modalClaimList {
-    background: #1a1218;
+    background: #0a1512;
     color: #ffffff;
-    border: 1px solid #4a3a52;
+    border: 1px solid #1f3d3a;
 }
 
 #modalClaimList a,
 #modalClaimList a:active,
 #modalClaimList a:visited,
 #modalClaimList a:link {
-    color: #b89adf;
+    color: #ffffff;
 }
 
 #modalClaimList a:hover,
@@ -980,7 +980,7 @@ footer a:focus {
 
 /* header */
 #modalClaimList h3 {
-    background: #423658;
+    background: #1f4d48;
     color: #ffffff;
 }
 
@@ -992,7 +992,7 @@ footer a:focus {
 /* pinned message */
 #chatMessagePinned,
 #chatMessagePinned.s-chat-message__pinned {
-    background: #423658;
+    background: #1f4d48;
     color: #ffffff !important;
     border: none !important;
 }
@@ -1003,7 +1003,7 @@ footer a:focus {
 
 /* timestamp */
 .s-chat-message_timestamp {
-    color: #d7c88a;
+    color: #ffffff;
 }
 
 /* mod message text */
@@ -1019,12 +1019,12 @@ footer a:focus {
 
 #fra_chatContainer .channelMenu .channelSwitcher:hover,
 #fra_chatContainer .channelMenu .channelSwitcher:focus {
-    background: #4a3a52;
+    background: #1f3d3a;
     color: #ffffff;
 }
 
 #fra_chatContainer .channelMenu .channelSwitcher.active {
-    background: #6a5a4a;
+    background: #2e7d76;
     color: #ffffff;
 }
 
@@ -1035,13 +1035,13 @@ footer a:focus {
 
 /* char count */
 #lblCharacterCounter {
-    color: #d7c88a !important;
+    color: #ffffff !important;
 }
 
 /* code of conduct & chat room link */
 a[href$='./code.php'],
 a[href$='./chat.php'] {
-    color: #b89adf;
+    color: #ffffff;
 }
 
 
@@ -1051,11 +1051,11 @@ a[href$='./chat.php'] {
 }
 
 ::-webkit-scrollbar-track {
-    background: #1a1218;
+    background: #0a1512;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #6a5a4a;
+    background: #2e7d76;
     border-radius: 4px;
 }
 
